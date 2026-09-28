@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>บริษัทรักษาความปลอดภัย [ชื่อบริษัท]</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f7f9;--fg:#101828;--mut:#5b6472;--nav:#0f2540;--gold:#e0a526;--card:#fff;--line:#dde1e7;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0c1522;--fg:#eef1f5;--mut:#9aa6b6;--card:#132238;--line:#24364f}}
+:root[data-theme="dark"]{--bg:#0c1522;--fg:#eef1f5;--mut:#9aa6b6;--card:#132238;--line:#24364f}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 16px/1.7 "Noto Sans Thai",system-ui,sans-serif}
+a{color:inherit}
+header{position:sticky;top:env(safe-area-inset-top,0px);background:var(--nav);color:#fff;z-index:9}
+.bar{max-width:1080px;margin:auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.logo{font-weight:800;text-decoration:none}
+nav a{margin-left:18px;text-decoration:none;font-size:15px;opacity:.9}
+nav a:hover,a:focus-visible{color:var(--gold);outline:none}
+.hero{background:var(--nav);color:#fff;padding:72px 20px 80px;border-bottom:6px solid var(--gold)}
+.wrap{max-width:1080px;margin:auto}
+h1{font-size:clamp(30px,6vw,52px);line-height:1.25;font-weight:800;margin:0 0 16px;max-width:15em}
+.hero p{max-width:34em;color:#c9d3e0;margin:0 0 28px}
+.btn{display:inline-block;background:var(--gold);color:#101828;font-weight:600;padding:12px 24px;border-radius:6px;text-decoration:none;margin-right:10px}
+.btn.o{background:none;color:#fff;border:1px solid #6d819b}
+section{padding:56px 20px}
+h2{font-size:28px;margin:0 0 8px}
+.sub{color:var(--mut);margin:0 0 28px;max-width:38em}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--gold);padding:22px;border-radius:4px}
+.card h3{margin:0 0 6px;font-size:19px}.card p{margin:0;color:var(--mut);font-size:15px}
+.alt{background:var(--card);border-block:1px solid var(--line)}
+ul.why{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px 32px}
+ul.why li{padding-left:22px;position:relative}ul.why li:before{content:"";position:absolute;left:0;top:.7em;width:10px;height:10px;background:var(--gold)}
+.contact{background:var(--nav);color:#fff}.contact .sub{color:#c9d3e0}
+.contact p{margin:4px 0}
+footer{padding:20px;text-align:center;font-size:13px;color:var(--mut)}
+</style>
+</head>
+<body>
+<header><div class="bar"><a class="logo" href="#top">[ชื่อบริษัท]</a>
+<nav><a href="#service">บริการ</a><a href="#why">ทำไมเลือกเรา</a><a href="#recruit">ร่วมงานกับเรา</a><a href="#contact">ติดต่อ</a></nav></div></header>
+
+<div class="hero" id="top"><div class="wrap">
+<h1>ดูแลความปลอดภัยขององค์กร ด้วยเจ้าหน้าที่ที่มีวินัยและตรงเวลา</h1>
+<p>บริการเจ้าหน้าที่รักษาความปลอดภัยสำหรับโรงงาน อาคาร และนิคมอุตสาหกรรม พร้อมระบบตรวจสอบตำแหน่งและเวลาปฏิบัติงานจริงของเจ้าหน้าที่ทุกกะ</p>
+<a class="btn" href="#contact">ขอใบเสนอราคา</a><a class="btn o" href="#service">ดูบริการ</a>
+</div></div>
+
+<section id="service"><div class="wrap">
+<h2>บริการของเรา</h2><p class="sub">เลือกบริการตามลักษณะพื้นที่ของคุณ ปรับจำนวนคนและกะการทำงานได้</p>
+<div class="grid">
+<div class="card"><h3>เจ้าหน้าที่รักษาความปลอดภัย</h3><p>ประจำจุดและลาดตระเวน ผ่านการอบรมวินัยและการปฏิบัติหน้าที่</p></div>
+<div class="card"><h3>เจ้าหน้าที่ลานจอดรถ</h3><p>จัดการจราจรและบริหารพื้นที่จอดให้เป็นระเบียบตลอดวัน</p></div>
+<div class="card"><h3>พนักงานต้อนรับ</h3><p>ต้อนรับผู้มาติดต่อ ให้ข้อมูลและประสานงานเบื้องต้น</p></div>
+<div class="card"><h3>บริการอื่นๆ</h3><p>ทำความสะอาด รับ-ส่งเอกสารและพัสดุ ตามที่องค์กรต้องการ</p></div>
+</div></div></section>
+
+<section class="alt" id="why"><div class="wrap">
+<h2>ทำไมเลือกเรา</h2><p class="sub">สิ่งที่ลูกค้าตรวจสอบได้จริง</p>
+<ul class="why">
+<li>ตรวจสอบพิกัดและเวลาเข้า-ออกเวรของเจ้าหน้าที่ได้</li>
+<li>จัดตารางเวรชัดเจน มีผู้ปฏิบัติงานแทนเมื่อขาดลา</li>
+<li>อบรมเจ้าหน้าที่ก่อนเข้าประจำจุดและอบรมซ้ำสม่ำเสมอ</li>
+<li>มีผู้ประสานงานติดต่อได้ตลอดสัญญา</li>
+</ul></div></section>
+
+<section id="recruit"><div class="wrap">
+<h2>ร่วมงานกับเรา</h2><p class="sub">รับสมัครเจ้าหน้าที่รักษาความปลอดภัย สนใจส่งประวัติและเบอร์ติดต่อมาที่อีเมลหรือโทรสอบถามได้</p>
+<a class="btn" href="#contact" style="background:var(--nav);color:#fff">ดูช่องทางสมัคร</a>
+</div></section>
+
+<section class="contact" id="contact"><div class="wrap">
+<h2>ติดต่อเรา</h2><p class="sub">แจ้งพื้นที่และจำนวนเจ้าหน้าที่ที่ต้องการ เราจะติดต่อกลับพร้อมใบเสนอราคา</p>
+<p>โทร: [เบอร์โทร]</p><p>อีเมล: [อีเมลบริษัท]</p><p>ที่อยู่: [ที่อยู่บริษัท]</p>
+</div></section>
+<footer>© 2026 [ชื่อบริษัท] สงวนลิขสิทธิ์</footer>
+</body>
+</html>
